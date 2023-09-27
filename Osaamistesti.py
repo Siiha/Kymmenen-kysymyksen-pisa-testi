@@ -20,10 +20,10 @@ ilmapallo
 joulu
 kukkakaali
 portugali""",("kyllä"),"su")
-,kysymys("Kuka tekee koodiinsa turhaa toistoa?",("miro"),"te")
 ,kysymys("Tupu, Hupu, ja kuka onkaan se kolmas",("Lupu","lupu"),"yt")
 ,kysymys("Mikä oli suomen pääkaupunki ennen Helsinkiä?",("Turku"),"yt")
 ,kysymys("Mikä maa järjesti vuoden 1952 olympialaiset?",("Suomi"),"yt")
+,kysymys("Kuka tekee koodiinsa turhaa toistoa?",("miro"),"te")
 ]
 for i in kysymykset:
 	i.kysy()
