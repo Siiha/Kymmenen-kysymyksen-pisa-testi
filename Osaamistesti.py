@@ -13,17 +13,17 @@ kysymykset=[
 kysymys("Mikä on ensimmäinen luku, joka on jaollinen sekä kahdella että kolmella?",("6"),"ma")
 ,kysymys("Paljonko on 1 000 000 000 000 * 0? ",("0"),"ma")
 ,kysymys("Mitkä ovat yleisimmät kirjaimet yhtälöissä (esimerkkivastaus: a ja b)?",("x ja y","y ja x"),"ma")
-,kysymys("mihinkä sanaluokkaan kuuluvat esim sanat :laulaa: ja :tanssia: ?",("verbi","verbi"),"su")
+,kysymys("mihinkä sanaluokkaan kuuluvat esim sanat :laulaa: ja :tanssia: ?",("verbi","Verbi"),"su")
 ,kysymys("Tuleeko pisteen jälkeen väli vai ei (kyllä/ei)?",("kyllä"),"su")
 ,kysymys("""Onko jokin seuraavista sanoista erisnimi? (kyllä/ei)?
 ilmapallo
 joulu
 kukkakaali
-portugali""",("kyllä"),"su")
+portugali""",("kyllä","Kyllä"),"su")
 ,kysymys("Tupu, Hupu, ja kuka onkaan se kolmas",("Lupu","lupu"),"yt")
-,kysymys("Mikä oli suomen pääkaupunki ennen Helsinkiä?",("Turku"),"yt")
-,kysymys("Mikä maa järjesti vuoden 1952 olympialaiset?",("Suomi"),"yt")
-,kysymys("Kuka tekee koodiinsa turhaa toistoa?",("miro"),"te")
+,kysymys("Mikä oli suomen pääkaupunki ennen Helsinkiä?",("Turku","turku"),"yt")
+,kysymys("Mikä maa järjesti vuoden 1952 olympialaiset?",("Suomi","suomi"),"yt")
+,kysymys("Kuka tekee koodiinsa turhaa toistoa?",("miro","Miro"),"te")
 ]
 for i in kysymykset:
 	i.kysy()
