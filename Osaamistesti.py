@@ -13,7 +13,7 @@ kysymykset=[
 kysymys("Mikä on ensimmäinen luku, joka on jaollinen sekä kahdella että kolmella?",("6"),"ma")
 ,kysymys("Paljonko on 1 000 000 000 000 * 0? ",("0"),"ma")
 ,kysymys("Mitkä ovat yleisimmät kirjaimet yhtälöissä (esimerkkivastaus: a ja b)?",("x ja y","y ja x"),"ma")
-,kysymys("mihinkä sanaluokkaan kuuluvat esim sanat :laulaa: ja :tanssia: ?",("verbi"),"su")
+,kysymys("mihinkä sanaluokkaan kuuluvat esim sanat :laulaa: ja :tanssia: ?",("verbi","verbi"),"su")
 ,kysymys("Tuleeko pisteen jälkeen väli vai ei (kyllä/ei)?",("kyllä"),"su")
 ,kysymys("""Onko jokin seuraavista sanoista erisnimi? (kyllä/ei)?
 ilmapallo
